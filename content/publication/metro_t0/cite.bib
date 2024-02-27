@@ -1,0 +1,23 @@
+@inproceedings{gong-etal-2023-model,
+    title = "Model-Generated Pretraining Signals Improves Zero-Shot Generalization of Text-to-Text Transformers",
+    author = "Gong, Linyuan  and
+      Xiong, Chenyan  and
+      Liu, Xiaodong  and
+      Bajaj, Payal  and
+      Xie, Yiqing  and
+      Cheung, Alvin  and
+      Gao, Jianfeng  and
+      Song, Xia",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.724",
+    doi = "10.18653/v1/2023.acl-long.724",
+    pages = "12933--12950",
+    abstract = "This paper explores the effectiveness of model-generated signals in improving zero-shot generalization of text-to-text Transformers such as T5. We study various designs to pretrain T5 using an auxiliary model to construct more challenging token replacements for the main model to denoise. Key aspects under study include the decoding target, the location of the RTD head, and the masking pattern. Based on these studies, we develop a new model, METRO-T0, which is pretrained using the redesigned ELECTRA-Style pretraining strategies and then prompt-finetuned on a mixture of NLP tasks. METRO-T0 outperforms all similar-sized baselines on prompted NLP benchmarks, such as {\_}T0 Eval{\_} and MMLU, and rivals the state-of-the-art T0-11B model with only **8{\%}** of its parameters. Our analysis on model{'}s neural activation and parameter sensitivity reveals that the effectiveness of METRO-T0 stems from more balanced contribution of parameters and better utilization of their capacity. The code and model checkpoints are available at [\url{https://github.com/gonglinyuan/metro_t0}](\url{https://github.com/gonglinyuan/metro_t0}).",
+}
