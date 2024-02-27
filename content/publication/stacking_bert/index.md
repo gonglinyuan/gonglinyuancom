@@ -1,27 +1,25 @@
 ---
-title: 'Model-Generated Pretraining Signals Improves Zero-Shot Generalization of Text-to-Text Transformers'
+title: 'Efficient training of BERT by progressively stacking'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Chenyan Xiong
-  - Xiaodong Liu
-  - Payal Bajaj
-  - Yiqing Xie
-  - Alvin Cheung
-  - Jianfeng Gao
-  - Xia Song
+  - Di He
+  - Zhuohan Li
+  - Tao Qin
+  - Liwei Wang
+  - Tieyan Liu
 
 # Author notes (optional)
 author_notes:
 
-date: '2023-05-21T00:00:00Z'
-doi: '10.18653/v1/2023.acl-long.724'
+date: '2019-05-24T00:00:00Z'
+doi:
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2023-05-21T00:00:00Z'
+publishDate: '2019-05-24T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -29,31 +27,31 @@ publishDate: '2023-05-21T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In Association for Computational Linguistics 2023
-publication_short: In ACL 2023
+publication: In International Conference on Machine Learning 2019
+publication_short: In ICML 2019
 
-abstract: This paper explores the effectiveness of model-generated signals in improving zero-shot generalization of text-to-text Transformers such as T5. We study various designs to pretrain T5 using an auxiliary model to construct more challenging token replacements for the main model to denoise. Key aspects under study include the decoding target, the location of the RTD head, and the masking pattern. Based on these studies, we develop a new model, METRO-T0, which is pretrained using the redesigned ELECTRA-Style pretraining strategies and then prompt-finetuned on a mixture of NLP tasks. METRO-T0 outperforms all similar-sized baselines on prompted NLP benchmarks, such as _T0 Eval_ and MMLU, and rivals the state-of-the-art T0-11B model with only **8%** of its parameters. Our analysis on model’s neural activation and parameter sensitivity reveals that the effectiveness of METRO-T0 stems from more balanced contribution of parameters and better utilization of their capacity. The code and model checkpoints are available at [https://github.com/gonglinyuan/metro_t0](https://github.com/gonglinyuan/metro_t0). 
+abstract: Unsupervised pre-training is popularly used in natural language processing. By designing proper unsupervised prediction tasks, a deep neural network can be trained and shown to be effective in many downstream tasks. As the data is usually adequate, the model for pre-training is generally huge and contains millions of parameters. Therefore, the training efficiency becomes a critical issue even when using high-performance hardware. In this paper, we explore an efficient training method for the state-of-the-art bidirectional Transformer (BERT) model. By visualizing the self-attention distribution of different layers at different positions in a well-trained BERT model, we find that in most layers, the self-attention distribution will concentrate locally around its position and the start-of-sentence token. Motivating from this, we propose the stacking algorithm to transfer knowledge from a shallow model to a deep model; then we apply stacking progressively to accelerate BERT training. The experimental results showed that the models trained by our training strategy achieve similar performance to models trained from scratch, but our algorithm is much faster.
 # Summary. An optional shortened abstract.
-summary: This paper explores the effectiveness of model-generated signals in improving zero-shot generalization of text-to-text Transformers such as T5.
+summary: We explore an efficient training method for BERT models.
 
 tags: []
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/pdf/2305.12567.pdf'
-url_code: 'https://github.com/gonglinyuan/metro_t0'
+url_pdf: 'http://proceedings.mlr.press/v97/gong19a/gong19a.pdf'
+url_code: 'https://github.com/gonglinyuan/StackingBERT'
 url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
 url_source: ''
-url_video: 'https://youtu.be/XdejDJwuUls'
+url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
