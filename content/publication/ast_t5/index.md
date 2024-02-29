@@ -1,5 +1,5 @@
 ---
-title: "{AST}-{T}5: Structure-Aware Pretraining for Code Generation and Understanding"
+title: "AST-T5: Structure-Aware Pretraining for Code Generation and Understanding"
 authors:
 - admin
 - Mostafa Elhoushi
