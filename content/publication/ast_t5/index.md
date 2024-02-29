@@ -35,7 +35,6 @@ url_project: ''
 url_slides: ''
 url_source: ''
 url_video: ''
-url_model: https://huggingface.co/gonglinyuan/ast_t5_base
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
