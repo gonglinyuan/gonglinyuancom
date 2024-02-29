@@ -27,7 +27,7 @@ summary: We propose a transpiler across deep learning frameworks using LLM and a
 tags: []
 featured: false
 
-url_pdf: https://arxiv.org/abs/2303.03593
+url_pdf: https://arxiv.org/pdf/2303.03593.pdf
 url_code: ''
 url_dataset: ''
 url_poster: ''
