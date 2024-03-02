@@ -13,8 +13,8 @@ sections:
       username: admin
   - block: collection
     id: featured
-    count: 99999
     content:
+      count: 99999
       title: Featured Publications
       filters:
         folders:
@@ -26,6 +26,7 @@ sections:
   - block: collection
     count: 99999
     content:
+      count: 99999
       title: Recent Publications
       filters:
         folders:
