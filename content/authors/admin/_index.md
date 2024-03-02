@@ -53,7 +53,7 @@ skills:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'gly@berkeley.edu'
+    link: 'mailto:gly@berkeley.edu'
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
     link: https://scholar.google.com/citations?user=w5A4QPQAAAAJ&hl=en
