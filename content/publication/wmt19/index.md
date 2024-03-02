@@ -27,7 +27,7 @@ publishDate: "2019-11-07T00:00:00Z"
 publication_types: ["paper-conference"]
 
 publication: In Fourth Conference on Machine Translation (WMT19, ACL 2019 Workshop)
-publication_short: In WMT19
+publication_short: In WMT19 (ACL 2019 Workshop)
 
 abstract: "We Microsoft Research Asia made submissions to 11 language directions in the WMT19 news translation tasks. We won the first place for 8 of the 11 directions and the second place for the other three. Our basic systems are built on Transformer, back translation and knowledge distillation. We integrate several of our rececent techniques to enhance the baseline systems: multi-agent dual learning (MADL), masked sequence-to-sequence pre-training (MASS), neural architecture optimization (NAO), and soft contextual data augmentation (SCA)."
 
@@ -64,9 +64,3 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides:
 ---
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
