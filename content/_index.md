@@ -13,6 +13,7 @@ sections:
       username: admin
   - block: collection
     id: featured
+    count: 99999
     content:
       title: Featured Publications
       filters:
@@ -23,6 +24,7 @@ sections:
       columns: '2'
       view: card
   - block: collection
+    count: 99999
     content:
       title: Recent Publications
       filters:
